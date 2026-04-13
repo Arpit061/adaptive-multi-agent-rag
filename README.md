@@ -48,7 +48,7 @@ flowchart LR
 
 ## 📂 Project Structure
 
-```
+```bash
 adaptive-multi-agent-rag/
 │
 ├── ingestion/        # Data loading, chunking, embedding
