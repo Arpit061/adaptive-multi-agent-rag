@@ -21,6 +21,20 @@ Pipeline:
 
 ---
 
+## 🧭 Architecture Diagram
+
+```mermaid
+flowchart LR
+    A[User Query] --> B[Embedding]
+    B --> C[Vector Search (FAISS)]
+    C --> D[Retrieve Top-K Chunks]
+    D --> E[Deduplication]
+    E --> F[Context Formation]
+    F --> G[Generator]
+    G --> H[Final Answer]
+```
+
+
 ## ⚙️ Tech Stack
 
 * Python
