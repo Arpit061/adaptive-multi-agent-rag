@@ -1,0 +1,9 @@
+langchain
+openai
+faiss-cpu
+python-dotenv
+fastapi
+uvicorn
+rank-bm25
+sentence-transformers
+pypdf
